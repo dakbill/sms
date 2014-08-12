@@ -14,7 +14,7 @@
         <div class="form-group">
             <div class="controls">
                 <select class="form-control" name="subject">
-                    <option>Select Subject</option>
+                    <option value="null">Select Subject</option>
                     <?php foreach($subjects as $subject):?>
                         <option value="<?php echo $subject->subject_id ?>"><?php echo $subject->name ?></option>
                     <?php endforeach?>

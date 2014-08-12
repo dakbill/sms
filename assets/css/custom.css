@@ -1,5 +1,4 @@
-body
-{
-    background-image: url("../img/background.png");
-}
 
+.TimeTable5:hover{color: black}
+#dow:hover{color: black}
+#dow{background-color: #000000;color: white;}

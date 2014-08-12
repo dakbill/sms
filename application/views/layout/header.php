@@ -13,6 +13,7 @@
 	  }
 	  </style>
 	  <link rel="stylesheet" type="text/css" href="<?php  echo base_url(); ?>assets/css/bootstrap-cerulean.css">
+	  <link rel="stylesheet" type="text/css" href="<?php  echo base_url(); ?>assets/css/custom.css">
 	  <link rel="stylesheet" type="text/css" href="<?php  echo base_url(); ?>assets/css/bootstrap-responsive.css">
 	  <link rel="stylesheet" type="text/css" href="<?php  echo base_url(); ?>assets/css/charisma-app.css">
 	  <link rel="stylesheet" type="text/css" href="<?php  echo base_url(); ?>assets/css/jquery-ui-1.8.21.custom.css">
