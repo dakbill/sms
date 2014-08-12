@@ -27,15 +27,47 @@ class Students extends CI_Controller {
         require(APPPATH .'plugins/fpdf/fpdf.php');
         $pdf = new FPDF('p','mm','A4');
         $pdf -> AddPage();
+        $pdf->SetFont('Arial','B',14);
+
+        $pdf->Ln(0);
+        $pdf->SetX(80);
+        $pdf -> write (20,'Academic Record');
+        $pdf->Ln(10);
+        $pdf->SetX(4);
+        $pdf -> write (13,'Student Number: ');
         $pdf->SetFont('Arial','',14);
-        $pdf -> write (10,'Report Card');
-        $pdf -> write (10,' hello world');
+        $pdf -> write (13,'10346353');
+        $pdf->SetX(-68);
+        $pdf->SetFont('Arial','B',14);
+        $pdf -> write (13,'Date of Birth: ');
+        $pdf->SetFont('Arial','',14);
+        $pdf -> write (13,date('d-M-y'));
+        $pdf->Ln(10);
+        $pdf->SetFont('Arial','B',14);
+        $pdf->SetX(30);
+        $pdf -> write (13,'Name: ');
+        $pdf->SetFont('Arial','',14);
+        $pdf -> write (13,'KOFI DWOMOH-ABABIO');
+        $pdf->SetX(-47);
+        $pdf->SetFont('Arial','B',14);
+        $pdf -> write (13,'Sex: ');
+        $pdf->SetFont('Arial','',14);
+        $pdf -> write (13,'Male');
+        $pdf->Ln(10);
+        $pdf->SetX(-68);
+        $pdf->SetFont('Arial','B',14);
+        $pdf -> write (13,'Date Printed: ');
+        $pdf->SetFont('Arial','',14);
+        $pdf -> write (13,date('d-M-y'));
+        $pdf->Ln(80);
+        $pdf->Line(5, 55, 210-5, 55);
+
+
+
         $this->output->set_header('Content-type:application/pdf');
-        $this->output->set_header('Content-Disposition:inline;filename = acc_today.pdf ');
+        $this->output->set_header('Content-Disposition:inline;filename = time_table.pdf ');
         $this->output->set_header('Accept-Ranges: bytes');
-        $pdf -> output ('acc_today.pdf','D');
-
-
+        $pdf -> output ('timetable.pdf','D');
     }
     public function view_finances()
 	{

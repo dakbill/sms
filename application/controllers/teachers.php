@@ -49,36 +49,8 @@ class Teachers extends CI_Controller {
 
         $pdf->Ln(0);
         $pdf->SetX(80);
-        $pdf -> write (20,'Academic Record');
-        $pdf->Ln(10);
-        $pdf->SetX(4);
-        $pdf -> write (13,'Student Number: ');
-        $pdf->SetFont('Arial','',14);
-        $pdf -> write (13,'10346353');
-        $pdf->SetX(-68);
-        $pdf->SetFont('Arial','B',14);
-        $pdf -> write (13,'Date of Birth: ');
-        $pdf->SetFont('Arial','',14);
-        $pdf -> write (13,date('d-M-y'));
-        $pdf->Ln(10);
-        $pdf->SetFont('Arial','B',14);
-        $pdf->SetX(30);
-        $pdf -> write (13,'Name: ');
-        $pdf->SetFont('Arial','',14);
-        $pdf -> write (13,'Kofi Dwomoh-Ababio');
-        $pdf->SetX(-47);
-        $pdf->SetFont('Arial','B',14);
-        $pdf -> write (13,'Sex: ');
-        $pdf->SetFont('Arial','',14);
-        $pdf -> write (13,'Male');
-        $pdf->Ln(10);
-        $pdf->SetX(-68);
-        $pdf->SetFont('Arial','B',14);
-        $pdf -> write (13,'Date Printed: ');
-        $pdf->SetFont('Arial','',14);
-        $pdf -> write (13,date('d-M-y'));
-        $pdf->Line(20, 45, 210-20, 45);
-
+        $pdf -> write (20,'Timetable');
+        
 
 
         $this->output->set_header('Content-type:application/pdf');
