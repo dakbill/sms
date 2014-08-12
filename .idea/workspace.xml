@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7fe4010-c6c5-4801-82c9-c81a213ae553" name="Default" comment="" />
+    <ignored path="sms.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sms" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="teachers.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/teachers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="0" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.76039934" vertical-offset="965" max-vertical-offset="2430">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_report.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/teachers/view_report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="12" selection-start="1747" selection-end="1747" vertical-scroll-proportion="-18.25926" vertical-offset="551" max-vertical-offset="1188">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enroll_stud.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/teachers/enroll_stud.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="242" column="128" selection-start="15168" selection-end="15249" vertical-scroll-proportion="-6.5925927" vertical-offset="4178" max-vertical-offset="4806">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/application/models/student.php" />
+        <option value="$PROJECT_DIR$/application/models/parent.php" />
+        <option value="$PROJECT_DIR$/application/models/guardian.php" />
+        <option value="$PROJECT_DIR$/application/models/admin.php" />
+        <option value="$PROJECT_DIR$/application/models/accountant.php" />
+        <option value="$PROJECT_DIR$/application/controllers/member.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/controllers/home.php" />
+        <option value="$PROJECT_DIR$/application/views/accountants/index.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/index.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/add_test_result.php" />
+        <option value="$PROJECT_DIR$/application/views/home/index.php" />
+        <option value="$PROJECT_DIR$/application/views/parents/index.bak.php" />
+        <option value="$PROJECT_DIR$/application/views/parents/ward_report.php" />
+        <option value="$PROJECT_DIR$/application/views/parents/index.php" />
+        <option value="$PROJECT_DIR$/application/views/parents/pay_ward_fees.php" />
+        <option value="$PROJECT_DIR$/application/views/students/index.php" />
+        <option value="$PROJECT_DIR$/application/views/students/finances.php" />
+        <option value="$PROJECT_DIR$/application/views/students/notifications.php" />
+        <option value="$PROJECT_DIR$/application/views/students/actions.php" />
+        <option value="$PROJECT_DIR$/application/controllers/parents.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admins.php" />
+        <option value="$PROJECT_DIR$/application/controllers/accountants.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/incidents.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/members.php" />
+        <option value="$PROJECT_DIR$/application/models/member.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/dump.php" />
+        <option value="$PROJECT_DIR$/application/controllers/students.php" />
+        <option value="$PROJECT_DIR$/application/views/students/acc_record.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/calendar.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/view_timetable.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/add_test_results.php" />
+        <option value="$PROJECT_DIR$/assets/css/custom.css" />
+        <option value="$PROJECT_DIR$/application/models/teacher.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/enroll_stud_dummy.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/send_notice.php" />
+        <option value="$PROJECT_DIR$/assets/js/highcharts.js" />
+        <option value="$PROJECT_DIR$/assets/js/exporting.js" />
+        <option value="$PROJECT_DIR$/application/views/layout/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/layout/header.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/enroll_stud.php" />
+        <option value="$PROJECT_DIR$/application/views/teachers/view_report.php" />
+        <option value="$PROJECT_DIR$/application/controllers/teachers.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Tests" />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../restaurant" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/application/views/teachers" />
+      <recent name="$PROJECT_DIR$/system/plugins/fpdf" />
+      <recent name="$PROJECT_DIR$/application/views/parents" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application" />
+      <recent name="$PROJECT_DIR$/application/views/layout" />
+      <recent name="$PROJECT_DIR$/application/views/home" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7fe4010-c6c5-4801-82c9-c81a213ae553" name="Default" comment="" />
+      <created>1404389082837</created>
+      <updated>1404389082837</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.49925485" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980783" sideWeight="0.5007452" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/controllers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/students.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/teachers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="116" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/accountants/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admins/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/parents/ward_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="75" selection-end="75" vertical-scroll-proportion="0.08985025" vertical-offset="0" max-vertical-offset="601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/parents/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="194" selection-start="2886" selection-end="2886" vertical-scroll-proportion="-3.3333333" vertical-offset="872" max-vertical-offset="1584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/parents/pay_ward_fees.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="216" selection-end="216" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/students/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="133" selection-start="2730" selection-end="2730" vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="1584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/students/notifications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="221" selection-end="221" vertical-scroll-proportion="0.1797005" vertical-offset="0" max-vertical-offset="601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/students/finances.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="216" selection-end="216" vertical-scroll-proportion="0.1797005" vertical-offset="0" max-vertical-offset="601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/parents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="261" selection-end="261" vertical-scroll-proportion="0.12052117" vertical-offset="70" max-vertical-offset="684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/accountants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="265" selection-end="265" vertical-scroll-proportion="0.24448217" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/teachers/incidents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="51" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gh-acc-db/application/views/pdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="25" selection-start="1205" selection-end="1208" vertical-scroll-proportion="0.33333334" vertical-offset="214" max-vertical-offset="3600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gh-acc-db/application/views/admins/edit-delete-user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="24" selection-start="2616" selection-end="2622" vertical-scroll-proportion="0.82783884" vertical-offset="484" max-vertical-offset="1314" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gh-acc-db/application/views/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/members.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="-17.333334" vertical-offset="54" max-vertical-offset="1062" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gh-acc-db/application/models/accident.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="689" selection-end="689" vertical-scroll-proportion="0.59375" vertical-offset="180" max-vertical-offset="5868" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gh-acc-db/application/controllers/members.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.36672327" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gh-acc-db/application/controllers/admins.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.96875" vertical-offset="1134" max-vertical-offset="1710" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gh-acc-db/application/controllers/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.70358306" vertical-offset="432" max-vertical-offset="1854" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/plugins/fpdf/font/times.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/teachers/dump.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="12" selection-start="3567" selection-end="3567" vertical-scroll-proportion="0.49084857" vertical-offset="1523" max-vertical-offset="2124" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/students/acc_record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="306" selection-end="306" vertical-scroll-proportion="0.359401" vertical-offset="0" max-vertical-offset="601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6624" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="60" selection-start="2129" selection-end="2129" vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1278" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/students.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="8" selection-start="955" selection-end="955" vertical-scroll-proportion="-1.4074074" vertical-offset="484" max-vertical-offset="1098" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="242" selection-end="242" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="78" selection-end="78" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/teachers/add_test_results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="8" selection-start="819" selection-end="819" vertical-scroll-proportion="-0.6666667" vertical-offset="378" max-vertical-offset="1098" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/teachers/calendar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="138" selection-start="367" selection-end="391" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.14040561" vertical-offset="0" max-vertical-offset="641" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/actions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/teachers/send_notice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="28" selection-start="3408" selection-end="3408" vertical-scroll-proportion="0.23475046" vertical-offset="1313" max-vertical-offset="1854">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/teachers/view_timetable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.29950082" vertical-offset="0" max-vertical-offset="601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/highcharts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="306" column="366" selection-start="160617" selection-end="160617" vertical-scroll-proportion="0.0" vertical-offset="4916" max-vertical-offset="5616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/exporting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="116" selection-start="7505" selection-end="7505" vertical-scroll-proportion="0.6305733" vertical-offset="0" max-vertical-offset="628">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="82" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.7903494" vertical-offset="101" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/layout/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="990" selection-end="990" vertical-scroll-proportion="0.5602606" vertical-offset="286" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/teachers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="34" selection-start="4523" selection-end="4523" vertical-scroll-proportion="0.86356074" vertical-offset="903" max-vertical-offset="1656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/teachers/enroll_stud.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="128" selection-start="15168" selection-end="15249" vertical-scroll-proportion="-6.5925927" vertical-offset="4178" max-vertical-offset="4806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/teacher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="22" selection-start="2987" selection-end="2987" vertical-scroll-proportion="0.6289517" vertical-offset="810" max-vertical-offset="1926">
+          <folding>
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="select * fro..teachers_has_subject..." />
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="select * fro..teachers_has_subject..." />
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="select count..." />
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="select count..." />
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="select count..." />
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="select * fro..teachers..." />
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="select * fro..teachers..." />
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1406397579201" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/teachers/view_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="12" selection-start="1747" selection-end="1747" vertical-scroll-proportion="-18.25926" vertical-offset="551" max-vertical-offset="1188">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/teachers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="0" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.76039934" vertical-offset="965" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
