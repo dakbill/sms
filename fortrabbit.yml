@@ -1,0 +1,3 @@
+script: artisan
+    args:
+        - migrate
