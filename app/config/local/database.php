@@ -22,10 +22,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'homestead',
-			'username'  => 'homestead',
-			'password'  => 'secret',
+			'host'      => 'smart-sms.mysql.eu1.frbit.com',
+			'database'  => 'smart-sms',
+			'username'  => 'smart-sms',
+			'password'  => 'iM9NHTaYY2_q9nlw',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
