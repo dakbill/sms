@@ -1,4 +1,0 @@
-post-deploy:
-    script: artisan
-    args:
-        - migrate

@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => ' smart-sms.mysql.eu1.frbit.com',
-			'database'  => 'samrt-sms',
+			'database'  => 'smart-sms',
 			'username'  => 'smart-sms',
 			'password'  => 'iM9NHTaYY2_q9nlw',
 			'charset'   => 'utf8',
