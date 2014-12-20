@@ -39,7 +39,7 @@ class TeacherController extends BaseController {
         
         $user = Auth::user();
         $teacher = Teacher::find($user->mem_id);
-        $subjects = $teacher->subjects;
+        $subjects = $teacher->subjects();
         $students = $teacher->students();
 
         return View::make('teacher/add_results',array('user'=>$user,'students'=>$students,'subjects'=>$subjects, 'title'=>'Add Results'));
