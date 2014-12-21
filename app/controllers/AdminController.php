@@ -131,7 +131,7 @@ class AdminController extends BaseController {
 
             #assign user details
             $new_user = new User();
-            $new_user->role = 'student';
+            $new_user->role = 'teacher';
             $new_user->name = $full_name;
             $new_user->dob = $dob;
             $new_user->phone = $sphone;
