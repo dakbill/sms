@@ -25,21 +25,15 @@ class Student extends Eloquent  {
     {
         return $this->belongsToMany('Subject','students_have_subjects', 'student_id', 'subject_id');
     }
-    public static function num_of_boys()
+    public static function population_by_gender()
     {
-        $num_of_boys = DB::table('students')
-        		 ->join('users', 'students.mem_id', '=', 'users.mem_id')
-        		 ->where('gender', '=', 'male')
-        		 ->count();
-        return $num_of_boys;
+        $pop_by_gender = DB::table('students')
+                 ->join('users', 'students.mem_id', '=', 'users.mem_id')
+                 ->select(DB::raw('count(*) as gender_count, gender'))
+                 ->groupBy('gender')
+                 ->get();
+        return $pop_by_gender;
     }
-    public static function num_of_girls()
-    {
-        $num_of_girls = DB::table('students')
-        		 ->join('users', 'students.mem_id', '=', 'users.mem_id')
-        		 ->where('gender', '=', 'female')
-        		 ->count();
-        return $num_of_girls;
-    }
+    
 
 }

@@ -32,22 +32,16 @@ class Teacher extends Eloquent  {
         		 ->select('class_score','exam_score','students_have_subjects.student_id','grade')->get();
         return $students;
     }
-    public static function num_of_boys()
+    public static function population_by_gender()
     {
-        $num_of_boys = DB::table('teachers')
+        $pop_by_gender = DB::table('teachers')
         		 ->join('users', 'teachers.mem_id', '=', 'users.mem_id')
-        		 ->where('gender', '=', 'male')
-        		 ->count();
-        return $num_of_boys;
+        		 ->select(DB::raw('count(*) as gender_count, gender'))
+        		 ->groupBy('gender')
+        		 ->get();
+        return $pop_by_gender;
     }
-    public static function num_of_girls()
-    {
-        $num_of_girls = DB::table('teachers')
-        		 ->join('users', 'teachers.mem_id', '=', 'users.mem_id')
-        		 ->where('gender', '=', 'female')
-        		 ->count();
-        return $num_of_girls;
-    }
+    
     
 
 }

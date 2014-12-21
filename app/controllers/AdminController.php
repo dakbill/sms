@@ -85,8 +85,15 @@ class AdminController extends BaseController {
             //$prev_school_level = Input::get('prev_school_level');
         }
         $parents = Guardian::get_all();
-        $num_of_boys = Student::num_of_boys();
-        $num_of_girls = Student::num_of_girls();
+        $pop_by_gender = Student::population_by_gender();
+        $num_of_boys = 0;
+        $num_of_girls = 0;
+        foreach ($pop_by_gender as $pop) {
+            if($pop->gender == 'male')
+                $num_of_boys = $pop->gender_count;        
+            else if ($pop->gender == 'female')
+                $num_of_girls = $pop->gender_count;
+        }
         $data = array_merge($data,array('user'=>$user,'parents'=>$parents,'num_of_boys'=>$num_of_boys,'num_of_girls'=>$num_of_girls,'title'=>'Enroll Student')) ;
         #redirect to student detail page
         
@@ -153,8 +160,16 @@ class AdminController extends BaseController {
             return View::make('admin/new_member_details', $data);
 
         }
-        $num_of_boys = Teacher::num_of_boys();
-        $num_of_girls = Teacher::num_of_girls();
+        $pop_by_gender = Teacher::population_by_gender();
+        $num_of_boys = 0;
+        $num_of_girls = 0;
+        foreach ($pop_by_gender as $pop) {
+            if($pop->gender == 'male')
+                $num_of_boys = $pop->gender_count;        
+            else if ($pop->gender == 'female')
+                $num_of_girls = $pop->gender_count;
+        }
+        
         $data = array_merge($data,array('user'=>$user,'num_of_boys'=>$num_of_boys,'num_of_girls'=>$num_of_girls,'title'=>'Enroll Teacher')) ;
         
         
