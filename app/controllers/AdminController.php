@@ -203,11 +203,41 @@ class AdminController extends BaseController {
 
     private static function generate_student_id()
     {
-        return 'taichobe';
+        // seed with microseconds
+        $mem_id='1034';
+        $len = 4;
+        list($usec, $sec) = explode(' ', microtime());
+        $seed = (float) $sec + ((float) $usec * 100000);
+        mt_srand($seed);
+        for($i=0;$i<$len;$i++){
+            $mem_id.= mt_rand(0,9);
+            if($i==0 && $mem_id == '0'){
+               $i=0;
+               $mem_id = '';
+            }
+
+        }
+
+        return $mem_id;
     }
     private static function generate_teacher_id()
     {
-        return 'taichobe';
+        // seed with microseconds
+        $mem_id='1033';
+        $len = 4;
+        list($usec, $sec) = explode(' ', microtime());
+        $seed = (float) $sec + ((float) $usec * 100000);
+        mt_srand($seed);
+        for($i=0;$i<$len;$i++){
+            $mem_id.= mt_rand(0,9);
+            if($i==0 && $mem_id == '0'){
+               $i=0;
+               $mem_id = '';
+            }
+
+        }
+
+        return $mem_id;
     }
     private static function generate_mem_password()
     {
