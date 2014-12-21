@@ -18,6 +18,9 @@ Route::group(array(), function()
 Route::group(array('prefix' => 'admin'), function()
 {
     Route::get('dashboard', array('as' => 'admin#dashboard', 'uses' => 'AdminController@dashboard'));
+    Route::get('new-member-details', array('as' => 'admin#new-member-details', 'uses' => 'AdminController@new_member_details'));
+    Route::get('enroll-teacher', array('as' => 'admin#enroll-teacher', 'uses' => 'AdminController@enroll_teacher'));
+    Route::post('enroll-teacher', array('as' => 'admin#attempt-enroll-teacher', 'uses' => 'AdminController@enroll_teacher'));
     Route::get('enroll-student', array('as' => 'admin#enroll-student', 'uses' => 'AdminController@enroll_student'));
     Route::post('enroll-student', array('as' => 'admin#attempt-enroll-student', 'uses' => 'AdminController@enroll_student'));
     Route::get('reports', array('as' => 'admin#reports', 'uses' => 'AdminController@reports'));

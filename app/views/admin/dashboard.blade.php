@@ -49,6 +49,9 @@
                     <li><a class="ajax-link"
                            href="{{URL::route('admin#enroll-student')}}"><i
                                 class="icon-user"></i><span class="hidden-tablet"> Enroll Student</span></a></li>
+                    <li><a class="ajax-link"
+                           href="{{URL::route('admin#enroll-teacher')}}"><i
+                                class="icon-user"></i><span class="hidden-tablet"> Enroll Teacher</span></a></li>
 
                     <li><a class="ajax-link"
                            href="{{URL::route('admin#notifications')}}"><i
