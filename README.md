@@ -6,13 +6,12 @@ This app is filled with common tools for the administrator, students, guardians,
 The administrator can perform the following tasks:
 
 * Enroll a new student.
-* 
+* Enroll a teacher.
+* Send Notices
+* View Student Statistics.
 
 ## Accountant
-The accountant can perform the following tasks:
 
-* 
-* 
 
 ## Student
 The student can perform the following tasks:
@@ -28,7 +27,7 @@ The student can perform the following tasks:
 The teacher can perform the following tasks:
 
 * Add student test results.
-* View their lesson schedule
+* View their lessons schedule
 * View the Academic caledar.
 * Send notifications via sms or email to target groups.
 * Report incidents.
@@ -38,7 +37,7 @@ The teacher can perform the following tasks:
 A guardian can perform the following tasks:
 
 * Pay their ward's Fees.
-* View their ward's daily lesson schedule.
+* View their ward's daily lessons schedule.
 * View the Academic caledar.
 * Render graphical models of their ward's academic progress.
 * View their ward's academic progress.
