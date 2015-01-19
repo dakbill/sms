@@ -16,14 +16,14 @@
             <legend>People Involved</legend>
 
             <div class="form-group">
-                <label>Names or ID numbers</label>
-                <textarea style="resize: none" placeholder="eg: Kofi Manu, Kwame, 10346653"></textarea>
+                <label>ID numbers</label>
+                <textarea style="resize: none;width: 694px;height: 136px" placeholder="eg: 10334466, 10346653"></textarea>
             </div>
         </fieldset>
         <fieldset>
             <legend>Event Account</legend>
             <div class="form-group">
-                <textarea style="resize: none" placeholder="It all started after the math class..." ></textarea>
+                <textarea style="resize: none;width: 694px;height: 136px" placeholder="It all started after the math class..." ></textarea>
             </div>
             <button class="btn-primary btn-large"> Report</button>
             <button class="btn-primary btn-large"> Cancel</button>

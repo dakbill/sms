@@ -59,7 +59,7 @@
                     </li>
                     <li><a class="ajax-link"
                            href="{{URL::route('guardian#reports')}}"><i
-                                class="icon-picture"></i><span class="hidden-tablet"> Ward Statistics</span></a></li>
+                                class="icon-picture"></i><span class="hidden-tablet"> Ward Performace</span></a></li>
                     <li><a class="ajax-link"
                            href="{{URL::route('guardian#reports')}}"><i
                                 class="icon-picture"></i><span class="hidden-tablet"> Ward Academic Record</span></a></li>

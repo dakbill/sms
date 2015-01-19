@@ -57,8 +57,8 @@
                 @foreach($students as $student) 
                 <tr >
                     <td>{{$student->student_id}}</td>
-                    <td><input onkeyup="generate_grade(this)" class="span3" value="{{$student->class_score}}" type="number" max="30" autocomplete="off"></td>
-                    <td><input onkeyup="generate_grade(this)" class="span3" value="{{$student->exam_score}}" type="number" max="70" autocomplete="off"></td>
+                    <td><input onchange="generate_grade(this)" class="span3" value="{{$student->class_score}}" type="number" min="0" max="30" autocomplete="off"></td>
+                    <td><input onchange="generate_grade(this)" class="span3" value="{{$student->exam_score}}" type="number" min="0" max="70" autocomplete="off"></td>
                     <td><input class="span3"  readonly value="{{$student->grade}}" type="text" autocomplete="off"></td>
                     <td><button class="btn btn-primary" onclick="record(this)">Record</button></td>
 

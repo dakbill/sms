@@ -47,22 +47,30 @@
                 <ul class="nav nav-tabs nav-stacked main-menu">
                     <li class="nav-header hidden-tablet">Activities</li>
                     
+
+
                     <li><a class="ajax-link"
-                           href="{{URL::route('student#pay-fees')}}"><i
-                                class="icon-eye-open"></i><span class="hidden-tablet"> Pay Fees</span></a></li>
+                                               href="{{URL::route('student#time-table')}}"><i
+                                                    class="icon-eye-open"></i><span class="hidden-tablet"> Time Table</span></a></li>
+                                        <li><a class="ajax-link"
+                                               href="{{URL::route('student#calendar')}}"><i
+                                                    class="icon-calendar"></i><span class="hidden-tablet"> Academic Calendar</span></a></li>
                     <li><a class="ajax-link"
-                           href="{{URL::route('student#time-table')}}"><i
-                                class="icon-eye-open"></i><span class="hidden-tablet"> Time Table</span></a></li>                                
-                    <li><a class="ajax-link"
-                           href="{{URL::route('student#calendar')}}"><i
-                                class="icon-calendar"></i><span class="hidden-tablet"> Academic Calendar</span></a></li>
+                                                                   href="{{URL::route('student#reports')}}"><i
+                                                                        class="icon-picture"></i><span class="hidden-tablet"> Academic Record</span></a></li>
+                                        <li><a class="ajax-link"
+                                               href="{{URL::route('student#reports')}}"><i
+                                                    class="icon-picture"></i><span class="hidden-tablet"> Performance</span></a></li>
+
                     </li>
                     <li><a class="ajax-link"
-                           href="{{URL::route('student#reports')}}"><i
-                                class="icon-picture"></i><span class="hidden-tablet"> Statistics</span></a></li>
-                     <li><a class="ajax-link"
-                           href="{{URL::route('student#reports')}}"><i
-                                class="icon-picture"></i><span class="hidden-tablet"> Academic Record</span></a></li>
+                                                href="{{URL::route('student#pay-fees')}}"><i
+                                                    class="icon-eye-open"></i><span class="hidden-tablet"> Subject Registration</span></a></li>
+                                        <li><a class="ajax-link"
+                                               href="{{URL::route('student#pay-fees')}}"><i
+                                                    class="icon-eye-open"></i><span class="hidden-tablet"> Pay Fees</span></a></li>
+
+
                 </ul>
 
             </div>

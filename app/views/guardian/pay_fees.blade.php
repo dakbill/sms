@@ -31,6 +31,6 @@
 	</fieldset>
 	
 </div>
-
+<iframe src="http://localhost:8000/api/invoice_iframe/96282ca08152838f8869c14587ef2a364a7f2fae/" width="800" height="400"></iframe>
 
 @endsection

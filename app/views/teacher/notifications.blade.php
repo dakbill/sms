@@ -16,14 +16,14 @@
             <legend>Recipients</legend>
 
             <div class="form-group">
-                <label>Names or ID numbers</label>
-                <textarea style="resize: none" placeholder="eg: Kofi Manu, Kwame, 10346653"></textarea>
+                <label>ID numbers</label>
+                <textarea style="resize: none;width: 694px;height: 136px" placeholder="eg: 10228955, 10346653"></textarea>
             </div>
         </fieldset>
         <fieldset>
             <legend>Message</legend>
             <div class="form-group">
-                <textarea style="resize: none"></textarea>
+                <textarea style="resize: none;width: 694px;height: 136px"></textarea>
             </div>
             <div class="control-group">
                 <label class="control-label" for="gender">Send By</label>
